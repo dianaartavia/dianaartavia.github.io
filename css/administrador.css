@@ -1,0 +1,94 @@
+@import url(vars.css);
+
+.border-rad{
+    background-color: var(--clr-gray-100);
+    border-radius: 1em;
+}
+
+.table{
+    color: var(--clr-white);
+    margin: 1em 0em 1em 2em;
+}
+
+.font-reg{
+ font-weight: var(--fw-reg);
+}
+
+.align-text{
+    text-align:left;
+}
+
+.col-info{
+    width: 90%;
+    margin-left: 6.5em;
+}
+
+.col-contenido{
+    width: 96%;
+}
+
+.margin-form{
+    margin-left: 9em;
+}
+
+.subtitle{
+    font-size: var(--fs-sm);
+}
+
+.inner-col {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.form-item {
+    width: 20em;
+    padding: .6em;
+    border: 0.17em solid var(--clr-gray-200);
+    border-radius: 5em;
+    outline-color: var(--clr-green);
+    font-size: .9em;
+    font-family: var(--ff-primary);
+}
+
+.selectores{
+    width: 20em;
+}
+
+.text-area{
+    width: 50.5em;
+    padding: .6em;
+    border: 0.17em solid var(--clr-gray-200);
+    border-radius: 1em;
+    font-size: .9em;
+    font-family: var(--ff-primary);
+
+}
+
+.text-area1{
+    width: 115.6em;
+    padding: .6em;
+    border: 0.17em solid var(--clr-gray-200);
+    border-radius: 1em;
+    font-size: .9em;
+    font-family: var(--ff-primary);
+
+}
+
+.img-perfil{
+    width: 70%;
+}
+
+.btn-submit{
+    color: var(--clr-white);
+    background-color: var(--clr-green);
+    border: none;
+    padding: 1em 2em;
+    border-radius: 1em;
+    margin-left: -12em;
+    font-size: 1em;
+    font-family: var(--ff-primary);
+}
+
+.btn-submit:hover{
+    background-color: var(--clr-green-100);
+}

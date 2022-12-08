@@ -1,0 +1,171 @@
+/*Navbar*/
+.top-nav {
+    background-color: var(--clr-green);
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: var(--clr-white);
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: var(--fs-xsm);
+}
+
+.top-nav a:hover {
+    background-color: var(--clr-green-100);
+    color: var(--clr-white);
+}
+
+.top-nav a.active {
+    background-color: var(--clr-green-100);
+    color: white;
+}
+
+.top-nav .icon {
+    display: none;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.img-logo {
+    width: 40%;
+}
+
+
+/*Footer*/
+.footer-col {
+    width: 100%;
+}
+
+.footer {
+    background-color: rgba(114, 200, 39, 255);
+}
+
+.footer-cont {
+    align-items: center;
+    justify-content: space-between;
+    color: var(--clr-white);
+    text-align: center;
+    padding: 1.563em 0 0;
+    position: relative
+}
+
+.footer-items {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--clr-white);
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.social-div {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.worked-width {
+    padding: 0;
+}
+
+.social-logos {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.social-logo {
+    display: block;
+    width: 4.625em;
+    height: 5.2em;
+    background: url(../imgInicio/social-logos.png) no-repeat;
+    transition: all .5s;
+    color: transparent;
+}
+
+.logo-Facebook {
+    background-position: 0 15px;
+}
+
+.logo-Facebook:hover {
+    background-position: 0 -62px;
+}
+
+.logo-Instagram {
+    width: 74px;
+    background-position: -76px 15px;
+}
+
+.logo-Instagram:hover {
+    width: 74px;
+    background-position: -76px -62px;
+}
+
+.logo-Twiter {
+    width: 74px;
+    background-position: -151px 15px;
+}
+
+.logo-Twiter:hover {
+    width: 74px;
+    background-position: -151px -62px;
+}
+
+.logo-YouTube {
+    width: 74px;
+    background-position: -229px 15px;
+}
+
+.logo-YouTube:hover {
+    width: 74px;
+    background-position: -229px -62px;
+}
+
+
+@media (max-width: 600px) {
+    .top-nav a:not(:first-child) {
+        display: none;
+    }
+
+    .top-nav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .top-nav.responsive {
+        position: relative;
+    }
+
+    .top-nav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .top-nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+}
+
+
+@media (min-width: 900px) {
+    .footer-col {
+        width: 50%;
+    }
+}

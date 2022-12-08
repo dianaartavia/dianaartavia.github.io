@@ -1,0 +1,301 @@
+@import url("vars.css");
+
+.top-nav {
+    background-color: var(--clr-green);
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: var(--clr-white);
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: var(--fs-xsm);
+}
+
+.top-nav a:hover {
+    background-color: var(--clr-green-100);
+    color: var(--clr-white);
+}
+
+.top-nav a.active {
+    background-color: var(--clr-green-100);
+    color: white;
+}
+
+.top-nav .icon {
+    display: none;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.img-logo {
+    width: 40%;
+}
+
+/*Fotos header*/
+.img-header {
+    width: 95%;
+}
+
+.mrg-1 {
+    margin-top: 1.5em;
+}
+
+.mrg-2 {
+    margin-top: 0.5em;
+}
+
+.mrg-3 {
+    margin-top: 2.45em;
+}
+
+/*main*/
+.vegetal-derecha {
+    margin-top: 1em;
+    margin-left: -7em;
+    width: 60%;
+}
+
+.vegetal-izquierda {
+    margin-top: 1em;
+    margin-left: 5em;
+    width: 60%;
+}
+
+.img-slider {
+    max-width: 450px;
+    height: 450px;
+    display: block;
+    margin: 10% 0% 8% 15%;
+}
+
+.title-main {
+    font-size: var(--fs-md);
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.link-slides {
+    text-decoration: none;
+}
+
+.text {
+    color: var(--clr-white);
+    font-size: .8em;
+    padding: 1em 0.75em;
+    position: absolute;
+    bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+    background-color: var(--clr-green-300);
+}
+
+/* Cards */
+.column {
+    float: left;
+    width: 30%;
+    padding: .8em .8em;
+}
+
+.row-card {
+    margin: 0 1em;
+    padding-left: 0em;
+}
+
+.row-card:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 0.25em 0.5em 0 var(--clr-gray-200);
+    padding: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.btn-card {
+    background: var(--clr-green);
+    padding: .7em 2em .7em 2em;
+    border-radius: 1.5em;
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: var(--fs-sm);
+
+}
+
+.margin-l{
+    margin-left: .7em;
+}
+
+.img-fav{
+   margin-left: 3.5em;
+   margin-top: -.2em;
+   position: absolute;
+   
+}
+
+.img-fav:hover{
+    background-image: url(../imgInicio/fav1.png);
+}
+
+
+@media (max-width: 600px) {
+    .vegetal-derecha {
+        display: none;
+
+    }
+
+    .vegetal-izquierda {
+        display: none;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 1.25em;
+    }
+}
+
+@media (min-width: 601px) {
+    .title-main {
+        font-size: var(--fs-md1);
+    }
+
+    .mrg-1 {
+        margin-top: 2em;
+    }
+
+    .mrg-2 {
+        margin-top: 0.6em;
+    }
+
+    .mrg-3 {
+        margin-top: 3.8em;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    .img-fav{
+        margin-left: 3em;
+     }
+
+     .margin-l{
+        margin-left: 1.5em;
+    }
+}
+
+@media (min-width: 900px) {
+    .title-main {
+        font-size: var(--fs-mdxl);
+    }
+
+    .vegetal-derecha {
+        margin-top: -3em;
+        width: 80%;
+    }
+
+    .vegetal-izquierda {
+        margin-top: -1.5em;
+        width: 80%;
+    }
+
+    .mrg-1 {
+        margin-top: 3em;
+    }
+
+    .mrg-2 {
+        margin-top: 0.6em;
+    }
+
+    .mrg-3 {
+        margin-top: 5.45em;
+    }
+
+    .column {
+        width: 33.3%;
+    }
+    .img-fav{
+        margin-left: 2.5em;
+     }
+     .margin-l{
+        margin-left: 2em;
+    }
+}
+
+@media (min-width: 1250px) {
+    .title-main {
+        font-size: var(--fs-lg);
+    }
+
+    .vegetal-derecha {
+        margin-top: -2em;
+
+        width: 80%;
+    }
+
+    .vegetal-izquierda {
+        margin-top: -1.5em;
+        width: 80%;
+    }
+
+    .mrg-1 {
+        margin-top: 4em;
+    }
+
+    .mrg-2 {
+        margin-top: 0.5em;
+    }
+
+    .mrg-3 {
+        margin-top: 7.45em;
+    }
+
+    .column {
+        width: 25%;
+    }
+    .margin-l{
+        margin-left: 2.8em;
+    }
+}
+
+@media (min-width: 1700px) {
+    .img-logo {
+        width: 20%;
+    }
+    
+    .title-main {
+        font-size: var(--fs-lg);
+    }
+
+    .vegetal-derecha {
+        margin-top: -8em;
+        margin-left: -20em;
+        width: 80%;
+    }
+
+    .vegetal-izquierda {
+        margin-top: -7em;
+        margin-left: 10em;
+        width: 80%;
+    }
+
+    .img-fav{
+        margin-left: 6em;
+     }
+     .margin-l{
+        margin-left: 3.2em;
+    }
+}
